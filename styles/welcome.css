@@ -1,0 +1,31 @@
+.welcome {
+  background: #fcfcfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .welcome__content {
+    padding-top: 485px;
+    width: 750px; }
+  .welcome__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px; }
+  .welcome__title {
+    text-transform: uppercase;
+    color: #56ccf2;
+    letter-spacing: 2px;
+    font-weight: 800; }
+  .welcome__text {
+    color: #334563;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 160px;
+    line-height: 1.5; }
+  .welcome__icon {
+    margin-right: 16px; }
+
+/*# sourceMappingURL=welcome.css.map */

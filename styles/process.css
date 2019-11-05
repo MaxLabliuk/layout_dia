@@ -1,0 +1,50 @@
+.process {
+  display: grid;
+  grid-template-columns: 362px 540px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 816px; }
+  .process--background {
+    background: #fcfcfd;
+    margin: 0 64px; }
+  .process__content {
+    margin-top: 160px; }
+  .process__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .process__icon {
+    margin-right: 16px; }
+  .process__title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #334563;
+    margin: 20px 0 64px; }
+  .process__subtitle {
+    color: #56ccf2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800; }
+  .process__text {
+    color: #334563;
+    line-height: 1.5; }
+
+@media screen and (max-width: 1450px) {
+  .process {
+    grid-template-columns: 300px 440px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 100vh; } }
+
+@media screen and (max-width: 990px) {
+  .process {
+    grid-template-columns: 500px; }
+  __content {
+    margin-top: 50px; } }
+
+@media screen and (max-width: 500px) {
+  .process {
+    grid-template-columns: 300px; } }
+
+/*# sourceMappingURL=process.css.map */

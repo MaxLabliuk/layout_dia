@@ -1,0 +1,1 @@
+{"version":3,"sources":["features.scss"],"names":[],"mappings":"AAKE;EACE,YAAY,EAAA;;AAGd;EACE,YAAY,EAAA","file":"features.css","sourcesContent":["@import \"vars\";\n@import \"mixins\";\n\n.features {\n\n  &__icon {\n    color: white;\n  }\n\n  &__subtitle {\n    color: white;\n  }\n}\n"]}

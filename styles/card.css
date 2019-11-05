@@ -1,0 +1,16 @@
+.card__photo {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 64px; }
+
+.card__title {
+  color: #334563;
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 42px; }
+
+.card__text {
+  color: #334563;
+  margin-bottom: 160px; }
+
+/*# sourceMappingURL=card.css.map */
