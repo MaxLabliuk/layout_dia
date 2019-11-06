@@ -22,7 +22,11 @@
     .nav__link--active {
       outline-color: rgba(255, 255, 255, 0.3);
       color: white;
-      margin-left: 4px; }
+      margin-left: 4px;
+      -webkit-transition: color 0.7s;
+      transition: color 0.7s; }
+      .nav__link--active:hover {
+        color: #fcc304; }
       .nav__link--active::after {
         content: "";
         height: 4px;

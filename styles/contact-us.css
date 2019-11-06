@@ -22,7 +22,11 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 40px;
-    outline-color: rgba(86, 204, 242, 0.2); }
+    outline-color: rgba(86, 204, 242, 0.2);
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
+    .contact-us__number:hover {
+      color: #fcc304; }
   .contact-us__address {
     color: #56ccf2;
     font-size: 24px;

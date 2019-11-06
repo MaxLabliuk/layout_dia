@@ -41,12 +41,14 @@
 
 @media screen and (max-width: 1250px) {
   .send {
-    max-width: 400px; } }
+    max-width: 400px; }
+    .send__button {
+      margin-left: 70px; } }
 
 @media screen and (max-width: 500px) {
   .send {
-    padding: 0 30px; }
+    padding: 100px 30px 0; }
     .send__button {
-      margin-left: 30px; } }
+      margin: 50px auto; } }
 
 /*# sourceMappingURL=send.css.map */

@@ -15,7 +15,7 @@
   color: #334563;
   margin-bottom: 160px; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 999px) {
   .card {
     text-align: center; }
     .card__photo {

@@ -31,14 +31,22 @@
     margin-right: 16px; }
 
 @media screen and (max-width: 999px) {
-  .welcome {
-    max-width: 750px; }
-    .welcome__content {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      margin: auto;
-      padding: 485px 30px 0; } }
+  .welcome__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    padding: 455px 30px 0;
+    max-width: 750px; } }
+
+@media screen and (max-width: 768px) {
+  .welcome__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    padding: 355px 30px 0;
+    max-width: 750px; } }
 
 @media screen and (max-width: 500px) {
   .welcome__content {

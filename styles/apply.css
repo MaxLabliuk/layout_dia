@@ -45,7 +45,8 @@
 
 @media screen and (max-width: 500px) {
   .apply {
-    padding: 0 30px; }
+    padding: 0 30px;
+    margin-top: 10px; }
     .apply__button {
       margin: 100px auto 0; } }
 

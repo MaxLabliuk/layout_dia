@@ -60,7 +60,7 @@
       cursor: pointer; }
   .slider__inner {
     position: absolute;
-    width: 264px;
+    max-width: 264px;
     bottom: 86px;
     left: 98px; }
   .slider__title {
@@ -80,13 +80,37 @@
     position: absolute;
     top: calc(100% - 70px / 2);
     left: calc(50% - 164px / 2); }
+  .slider__button--left {
+    position: absolute;
+    top: calc(100% - 36px / 2);
+    left: calc(50% - 45px);
+    padding: 10px;
+    border: none;
+    background-color: #fcce04;
+    opacity: 1;
+    outline: none; }
+  .slider__button--right {
+    position: absolute;
+    top: calc(100% - 30px / 2);
+    left: calc(50% + 30px);
+    background-color: #fcce04;
+    padding: 10px;
+    border: 1px none;
+    outline: none; }
   .slider__vector-left {
     position: absolute;
-    top: calc(100% - 18px);
-    left: calc(50% - 45px); }
+    top: calc(100% - 20px);
+    left: calc(50% - 15px); }
   .slider__vector-right {
     position: absolute;
-    top: calc(100% - 18px);
-    left: calc(50% + 35px); } }
+    top: calc(100% - 22px);
+    left: calc(50% - 5px); } }
+
+@media screen and (max-width: 500px) {
+  .slider__inner {
+    position: absolute;
+    max-width: 264px;
+    bottom: 50px;
+    left: 18px; } }
 
 /*# sourceMappingURL=slider.css.map */

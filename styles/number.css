@@ -86,12 +86,17 @@
     .number__wrapper {
       display: grid;
       grid-template-columns: 264px 264px;
-      -webkit-column-gap: 88px;
-         -moz-column-gap: 88px;
-              column-gap: 88px;
       row-gap: 128px; }
     .number--right {
       margin-top: 100px; } }
+
+@media screen and (max-width: 768px) {
+  .number__wrapper {
+    display: grid;
+    grid-template-columns: 240px 240px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px; } }
 
 @media screen and (max-width: 500px) {
   .number {
