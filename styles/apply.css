@@ -1,0 +1,52 @@
+/* stylelint-disable */
+/* stylelint-disable */
+.apply {
+  background: url(../images/bg6.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 608px;
+  margin-top: 200px;
+  width: 100%; }
+  .apply__content {
+    max-width: 750px;
+    padding-top: 170px; }
+  .apply__title {
+    color: #334563;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 57px; }
+  .apply__text {
+    color: #334563;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center; }
+  .apply__button {
+    background: #2f80ed;
+    border-radius: 64px;
+    padding: 16px 88px;
+    color: white;
+    display: block;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 55px auto 0;
+    border: 1px solid transparent;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    outline-color: rgba(47, 128, 237, 0.2); }
+    .apply__button:hover {
+      color: #2f80ed;
+      border: 1px solid #2f80ed;
+      background-color: white; }
+
+@media screen and (max-width: 1350px) {
+  .apply {
+    background: #fcfcfd; } }
+
+@media screen and (max-width: 500px) {
+  .apply {
+    padding: 0 30px; }
+    .apply__button {
+      margin: 100px auto 0; } }
+
+/*# sourceMappingURL=apply.css.map */

@@ -1,0 +1,45 @@
+/* stylelint-disable */
+/* stylelint-disable */
+.unusual-cards {
+  margin: auto;
+  text-align: center;
+  padding: 0 32px;
+  position: relative;
+  -webkit-box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+          box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+  background: #fefefe; }
+  .unusual-cards__ground {
+    position: relative;
+    left: 0;
+    height: 161px;
+    margin-top: 40px; }
+  .unusual-cards__photo {
+    height: 123px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(0% + 90px); }
+  .unusual-cards__text {
+    font-size: 14px;
+    font-style: italic;
+    color: #334563;
+    margin-top: 30px; }
+    .unusual-cards__text::after {
+      display: block;
+      content: "";
+      height: 2px;
+      width: 64px;
+      background-color: #56ccf2;
+      margin: 31px auto; }
+  .unusual-cards__name {
+    font-weight: 700;
+    font-size: 12px;
+    color: #152032; }
+  .unusual-cards__position {
+    text-transform: uppercase;
+    color: #56ccf2;
+    letter-spacing: 2px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding-bottom: 58px; }
+
+/*# sourceMappingURL=unusual-cards.css.map */

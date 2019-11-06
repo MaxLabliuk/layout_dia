@@ -1,0 +1,1 @@
+{"version":3,"sources":["vision.scss"],"names":[],"mappings":"AAAA;EAEE,mBAAmB;EACnB,6BAA6B,EAAA","file":"vision.css","sourcesContent":[".vision {\n  // height: 1600px;\n  background: #fcfcfd;\n  border: 1px solid transparent;\n}\n"]}

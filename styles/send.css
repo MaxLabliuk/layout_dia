@@ -1,0 +1,52 @@
+/* stylelint-disable */
+/* stylelint-disable */
+.send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 650px; }
+  .send__form {
+    margin-top: 100px; }
+  .send__input {
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    background: #fcfcfd;
+    border-bottom: 1px solid #e1e1e1;
+    color: #152032;
+    line-height: 68px;
+    outline-color: rgba(252, 252, 253, 0.2); }
+  .send__button {
+    background: #2f80ed;
+    padding: 17px 92px;
+    border-radius: 64px;
+    color: white;
+    margin-top: 105px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    border: 1px solid transparent;
+    margin-bottom: 136px;
+    outline-color: rgba(47, 128, 237, 0.2); }
+    .send__button:hover {
+      color: #2f80ed;
+      border: 1px solid #2f80ed;
+      background-color: white; }
+
+@media screen and (max-width: 1250px) {
+  .send {
+    max-width: 400px; } }
+
+@media screen and (max-width: 500px) {
+  .send {
+    padding: 0 30px; }
+    .send__button {
+      margin-left: 30px; } }
+
+/*# sourceMappingURL=send.css.map */

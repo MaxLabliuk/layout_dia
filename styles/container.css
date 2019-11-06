@@ -1,5 +1,13 @@
 .container {
   max-width: 1150px;
   margin: 0 auto; }
+  .container--inner {
+    max-width: 750px;
+    margin-left: 98px; }
+
+@media screen and (max-width: 500px) {
+  .container--inner {
+    max-width: 400px;
+    margin: 0; } }
 
 /*# sourceMappingURL=container.css.map */

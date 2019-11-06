@@ -1,3 +1,5 @@
+/* stylelint-disable */
+/* stylelint-disable */
 .card__photo {
   width: 160px;
   height: 160px;
@@ -12,5 +14,15 @@
 .card__text {
   color: #334563;
   margin-bottom: 160px; }
+
+@media screen and (max-width: 500px) {
+  .card {
+    text-align: center; }
+    .card__photo {
+      margin-bottom: 20px; }
+    .card__text {
+      margin-bottom: 100px; }
+    .card__title {
+      margin-bottom: 20px; } }
 
 /*# sourceMappingURL=card.css.map */

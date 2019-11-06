@@ -1,3 +1,5 @@
+/* stylelint-disable */
+/* stylelint-disable */
 .number {
   text-align: center;
   display: -webkit-box;
@@ -7,14 +9,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 336px; }
+  margin-top: 336px;
+  position: relative;
+  z-index: 1; }
   .number__wrapper {
     display: grid;
     grid-template-columns: 240px 240px;
     -webkit-column-gap: 58px;
        -moz-column-gap: 58px;
-            column-gap: 58px;
-    row-gap: 128px; }
+            column-gap: 58px; }
   .number--right {
     margin-top: 225px;
     text-align: center;
@@ -24,7 +27,9 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    position: relative;
+    z-index: 1; }
   .number__card {
     -webkit-box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
             box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
@@ -32,6 +37,8 @@
     padding: 48px 30px;
     margin-bottom: 128px; }
   .number__title--one {
+    /* stylelint-disable */
+    /* stylelint-enable */
     color: #56ccf2;
     font-size: 40px;
     font-weight: 900;
@@ -40,6 +47,7 @@
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px); }
   .number__title--two {
+    /* stylelint-enable */
     color: #fcc304;
     font-size: 40px;
     font-weight: 900;
@@ -48,6 +56,7 @@
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px); }
   .number__title--three {
+    /* stylelint-enable */
     color: #03d542;
     font-size: 40px;
     font-weight: 900;
@@ -56,20 +65,22 @@
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px); }
   .number__title--four {
+    /* stylelint-enable */
     color: #f25656;
     font-size: 40px;
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
     -webkit-transform: translateY(-30px);
-            transform: translateY(-30px); }
+            transform: translateY(-30px);
+    /* stylelint-enable */ }
   .number__text {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
     font-size: 12px;
     color: #334563; }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1250px) {
   .number {
     margin-top: 100px; }
     .number__wrapper {
@@ -86,7 +97,7 @@
   .number {
     margin-top: 50px; }
     .number__wrapper {
-      grid-template-columns: 340px;
+      grid-template-columns: 270px;
       row-gap: 0; }
     .number--right {
       margin-top: 0; } }

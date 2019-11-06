@@ -1,3 +1,5 @@
+/* stylelint-disable */
+/* stylelint-disable */
 .what-we-do {
   display: grid;
   grid-template-columns: repeat(3, 264px);
@@ -5,13 +7,13 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .what-we-do__title {
+    font-weight: 900;
+    font-size: 48px;
     display: block;
     text-align: center;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    color: 63;
-    font-weight: 900;
-    font-size: 48px;
+    color: #334563;
     margin-bottom: 136px; }
 
 @media screen and (max-width: 1450px) {
@@ -29,15 +31,15 @@
     grid-template-columns: repeat(1, 500px);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0 20px; } }
+            justify-content: center; } }
 
 @media screen and (max-width: 500px) {
   .what-we-do {
     grid-template-columns: 264px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0 20px; } }
+            justify-content: center; }
+    .what-we-do__title {
+      margin-bottom: 50px; } }
 
 /*# sourceMappingURL=what-we-do.css.map */

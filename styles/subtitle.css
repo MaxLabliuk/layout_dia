@@ -1,0 +1,26 @@
+/* stylelint-disable */
+/* stylelint-disable */
+.subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .subtitle__icon {
+    margin-right: 16px; }
+  .subtitle__title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #56ccf2; }
+    .subtitle__title--white {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 800;
+      color: white; }
+
+@media screen and (max-width: 1025px) {
+  .subtitle {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
+/*# sourceMappingURL=subtitle.css.map */

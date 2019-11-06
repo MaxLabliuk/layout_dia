@@ -1,0 +1,1 @@
+{"version":3,"sources":["testimonials.scss"],"names":[],"mappings":"AAAA;EACE,oCAA4B;UAA5B,4BAA4B,EAAA;;AAG9B;EACE;IACE,eAAe,EAAA,EAChB","file":"testimonials.css","sourcesContent":[".testimonials {\n  transform: translateY(170px);\n}\n\n@media screen and (max-width: 1250px) {\n  .testimonials {\n    padding: 0 20px;\n  }\n}\n"]}

@@ -1,0 +1,22 @@
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .socials__link {
+    margin-left: 48px;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    outline-color: rgba(86, 204, 242, 0.2); }
+    .socials__link:hover {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px); }
+    .socials__link:first-child {
+      margin-left: 0; }
+
+@media screen and (max-width: 999px) {
+  .socials__link {
+    margin-bottom: 50px; } }
+
+/*# sourceMappingURL=socials.css.map */

@@ -1,0 +1,14 @@
+/* stylelint-disable */
+/* stylelint-disable */
+.local-title {
+  font-weight: 900;
+  font-size: 32px;
+  color: #334563;
+  margin: 20px 0 64px;
+  max-width: 362px; }
+
+@media screen and (max-width: 1024px) {
+  .local-title {
+    margin: 40px auto; } }
+
+/*# sourceMappingURL=local-title.css.map */

@@ -1,0 +1,9 @@
+.testimonials {
+  -webkit-transform: translateY(170px);
+          transform: translateY(170px); }
+
+@media screen and (max-width: 1250px) {
+  .testimonials {
+    padding: 0 20px; } }
+
+/*# sourceMappingURL=testimonials.css.map */

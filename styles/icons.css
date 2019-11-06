@@ -1,0 +1,21 @@
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 64px; }
+  .icons__img {
+    background: white;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 32px; }
+  .icons__text {
+    color: white;
+    line-height: 1.5; }
+
+/*# sourceMappingURL=icons.css.map */
