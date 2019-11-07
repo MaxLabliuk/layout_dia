@@ -11,16 +11,6 @@
   .welcome__content {
     padding-top: 485px;
     max-width: 750px; }
-  .welcome__inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 20px; }
-  .welcome__title {
-    text-transform: uppercase;
-    color: #56ccf2;
-    letter-spacing: 2px;
-    font-weight: 800; }
   .welcome__text {
     color: #334563;
     font-size: 24px;
@@ -35,8 +25,8 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: auto;
-    padding: 455px 30px 0;
+    margin: 0 auto;
+    padding: 655px 30px 0;
     max-width: 750px; } }
 
 @media screen and (max-width: 768px) {
@@ -45,12 +35,17 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin: auto;
-    padding: 355px 30px 0;
-    max-width: 750px; } }
+    padding: 455px 30px 0;
+    max-width: 750px; }
+  .welcome__text {
+    margin-top: 30px; } }
 
 @media screen and (max-width: 500px) {
   .welcome__content {
-    padding: 355px 40px 0;
-    max-width: 550px; } }
+    padding: 455px 40px 0;
+    max-width: 550px; }
+  .welcome__text {
+    margin-top: 30px;
+    text-align: center; } }
 
 /*# sourceMappingURL=welcome.css.map */

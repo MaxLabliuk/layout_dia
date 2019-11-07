@@ -41,6 +41,8 @@
   .process {
     grid-template-columns: 300px; }
     .process__content {
-      margin-top: 50px; } }
+      margin-top: 50px; }
+    .process__text {
+      text-align: center; } }
 
 /*# sourceMappingURL=process.css.map */

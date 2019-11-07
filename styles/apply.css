@@ -4,6 +4,7 @@
   background: url(../images/bg6.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   height: 608px;
   margin-top: 200px;
   width: 100%; }
@@ -49,5 +50,9 @@
     margin-top: 10px; }
     .apply__button {
       margin: 100px auto 0; } }
+
+@media screen and (min-width: 1610px) {
+  .apply {
+    background-repeat: repeat; } }
 
 /*# sourceMappingURL=apply.css.map */

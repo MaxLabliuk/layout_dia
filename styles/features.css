@@ -44,4 +44,22 @@
     .features__content {
       max-width: 300px; } }
 
+@media screen and (min-width: 1610px) {
+  .features__photo {
+    right: 17%;
+    -webkit-animation: photo 3s;
+            animation: photo 3s; } }
+
+@-webkit-keyframes photo {
+  from {
+    right: 0; }
+  to {
+    right: 17%; } }
+
+@keyframes photo {
+  from {
+    right: 0; }
+  to {
+    right: 17%; } }
+
 /*# sourceMappingURL=features.css.map */

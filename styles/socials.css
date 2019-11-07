@@ -17,6 +17,8 @@
 
 @media screen and (max-width: 999px) {
   .socials__link {
-    margin-bottom: 50px; } }
+    margin: 0 auto 50px; }
+    .socials__link:first-child {
+      margin: 0 auto 50px; } }
 
 /*# sourceMappingURL=socials.css.map */

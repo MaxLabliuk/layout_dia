@@ -11,4 +11,8 @@
   .local-title {
     margin: 40px auto; } }
 
+@media screen and (max-width: 500px) {
+  .local-title {
+    text-align: center; } }
+
 /*# sourceMappingURL=local-title.css.map */

@@ -13,7 +13,9 @@
     padding-top: 48px; }
   .header__logo {
     font-weight: 700;
-    font-size: 32px; }
+    font-size: 32px;
+    -webkit-animation: logo 3s;
+            animation: logo 3s; }
   .header__section {
     max-width: 1150px; }
   .header__title {
@@ -58,7 +60,7 @@
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      margin: 0 auto 5px; }
+      margin: 0 auto 30px; }
     .header__title {
       font-size: 40px;
       margin: 50px 0 32px; }
@@ -75,5 +77,23 @@
   .header__title {
     font-size: 40px;
     margin: 30px 0 32px; } }
+
+@media screen and (min-width: 1610px) {
+  .header {
+    /* stylelint-disable */
+    background: linear-gradient(-65deg, #fcfcfd 10%, #fcfcfd 0%, #fcfcfd 32%, #56ccf2 20%);
+    /* stylelint-enable */ } }
+
+@-webkit-keyframes logo {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes logo {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 /*# sourceMappingURL=header.css.map */

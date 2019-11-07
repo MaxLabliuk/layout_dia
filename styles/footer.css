@@ -37,8 +37,10 @@
 
 @media screen and (max-width: 1250px) {
   .footer {
-    -ms-flex-pack: distribute;
-        justify-content: space-around; } }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 30px; } }
 
 @media screen and (max-width: 999px) {
   .footer {
@@ -61,6 +63,12 @@
       margin-left: 0;
       margin-bottom: 10px; }
     .footer__text {
+      margin-bottom: 30px; } }
+
+@media screen and (max-width: 500px) {
+  .footer {
+    padding-bottom: 20px; }
+    .footer__link {
       margin-bottom: 20px; } }
 
 /*# sourceMappingURL=footer.css.map */

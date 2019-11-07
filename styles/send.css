@@ -39,11 +39,9 @@
       border: 1px solid #2f80ed;
       background-color: white; }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1025px) {
   .send {
-    max-width: 400px; }
-    .send__button {
-      margin-left: 70px; } }
+    padding: 0 30px; } }
 
 @media screen and (max-width: 500px) {
   .send {
