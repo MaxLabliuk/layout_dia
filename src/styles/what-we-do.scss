@@ -1,0 +1,51 @@
+@import "vars";
+@import "mixins";
+
+.what-we-do {
+  display: grid;
+  grid-template-columns: repeat(3, 264px);
+  justify-content: space-between;
+
+  &__title {
+    @include font(48px, 900);
+    display: block;
+    text-align: center;
+    transform: translateY(-50%);
+    color: $dark-text-color;
+    margin-bottom: 136px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .what-we-do {
+    grid-template-columns: repeat(3, 264px);
+    justify-content: center;
+    column-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .what-we-do {
+    grid-template-columns: 264px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .what-we-do {
+    grid-template-columns: 264px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .what-we-do {
+    grid-template-columns: 264px;
+    justify-content: center;
+
+    &__title {
+      margin-bottom: 50px;
+    }
+  }
+
+}

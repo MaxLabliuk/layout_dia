@@ -1,0 +1,50 @@
+@import "vars";
+@import "mixins";
+
+.contact {
+  position: absolute;
+  right: -320px;
+  top: calc(50% - 19px / 2);
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+
+  &__link {
+    @include font(12px, 800);
+    margin: auto;
+    text-transform: uppercase;
+    color: $dark-text-color;
+    align-items: center;
+    letter-spacing: 2px;
+    transition: transform 0.5s linear;
+    outline-color: rgba($color: #56ccf2, $alpha: 0.3);
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .contact {
+    transform: rotate(0);
+    left: 0;
+    bottom: -70%;
+    max-width: 1150px;
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .contact {
+    bottom: -80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    bottom: -150%;
+  }
+}

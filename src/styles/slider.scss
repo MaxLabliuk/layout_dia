@@ -1,0 +1,150 @@
+@import "vars";
+@import "mixins";
+
+.slider {
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    position: relative;
+    max-width: 1150px;
+    width: 100%;
+
+  }
+
+  &__img {
+    width: 100%;
+
+  }
+
+  &__rectangle {
+    position: absolute;
+    top: calc(50% - 70px / 2);
+    left: calc(0% - 164px / 2);
+  }
+
+  &__button {
+    &--left {
+      position: absolute;
+      top: calc(50% - 30px / 2);
+      left: calc(0% - 45px);
+      padding: 10px;
+      border: none;
+      background-color: rgb(252, 206, 4);
+      opacity: 1;
+      outline: none;
+    }
+
+    &--right {
+      position: absolute;
+      top: calc(50% - 30px / 2);
+      left: calc(0% + 30px);
+      background-color: rgb(252, 206, 4);
+      padding: 10px;
+      border: none;
+      outline: none;
+
+    }
+  }
+
+  &__vector-left {
+    position: absolute;
+    top: calc(50% - 22px / 2);
+    left: 0;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: translate(-5px) scale(1.2);
+      cursor: pointer;
+    }
+  }
+
+  &__vector-right {
+    position: absolute;
+    top: calc(50% - 22px / 2);
+    left: 0;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: translate(5px) scale(1.2);
+      cursor: pointer;
+    }
+  }
+
+  &__inner {
+    position: absolute;
+    max-width: 264px;
+    bottom: 86px;
+    left: 98px;
+  }
+
+  &__title {
+    @include font(12px, 800);
+    color: $main-blue-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  &__text {
+    @include font(19px, 900);
+    color: white;
+    margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .slider {
+
+    &__rectangle {
+      position: absolute;
+      top: calc(100% - 70px / 2);
+      left: calc(50% - 164px / 2);
+    }
+
+    &__button {
+      &--left {
+        position: absolute;
+        top: calc(100% - 36px / 2);
+        left: calc(50% - 45px);
+        padding: 10px;
+        border: none;
+        background-color: rgb(252, 206, 4);
+        opacity: 1;
+        outline: none;
+      }
+      &--right {
+        position: absolute;
+        top: calc(100% - 30px / 2);
+        left: calc(50% + 30px);
+        background-color: rgb(252, 206, 4);
+        padding: 10px;
+        border: 1px none;
+        outline: none;
+
+      }
+    }
+
+    &__vector-left {
+      position: absolute;
+      top: calc(100% - 20px);
+      left: calc(50% - 15px);
+    }
+
+    &__vector-right {
+      position: absolute;
+      top: calc(100% - 22px);
+      left: calc(50% - 5px);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slider {
+    &__inner {
+      position: absolute;
+      max-width: 264px;
+      bottom: 50px;
+      left: 18px;
+    }
+  }
+}

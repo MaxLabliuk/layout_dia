@@ -1,0 +1,68 @@
+@import "vars";
+@import "mixins";
+
+.features {
+  height: 976px;
+  background: $main-blue-color;
+  padding-top: 200px;
+  position: relative;
+
+  &__content {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__photo {
+    height: 976px;
+    width: 976px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .features {
+    margin: 300px 0 50px;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      margin: auto ;
+      max-width: 500px;
+    }
+
+    &__photo {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features {
+    margin: 1100px 0 50px;
+    padding-top: 50px;
+    &__content {
+      max-width: 300px;
+    }
+  }
+}
+
+@media screen and (min-width: 1610px) {
+  .features {
+    &__photo {
+      right: 17%;
+      animation: photo 3s;
+    }
+  }
+}
+
+@keyframes photo {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 17%;
+  }
+}

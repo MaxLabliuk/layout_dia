@@ -1,0 +1,67 @@
+@import "vars";
+@import "mixins";
+
+.welcome {
+  background: $ground-gray-color;
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    padding-top: 485px;
+    max-width: 750px;
+  }
+
+  &__text {
+    color: $dark-text-color;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 160px;
+    line-height: 1.5;
+  }
+
+  &__icon {
+    margin-right: 16px;
+
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .welcome {
+
+    &__content {
+      justify-content: center;
+      margin: 0 auto;
+      padding: 655px 30px 0;
+      max-width: 750px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    &__content {
+      justify-content: center;
+      margin: auto;
+      padding: 455px 30px 0;
+      max-width: 750px;
+    }
+
+    &__text {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .welcome {
+    &__content {
+      padding: 455px 40px 0;
+      max-width: 550px;
+    }
+
+    &__text {
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+}
