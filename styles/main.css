@@ -924,7 +924,8 @@ body {
     .apply__button:hover {
       color: #2f80ed;
       border: 1px solid #2f80ed;
-      background-color: white; }
+      background-color: white;
+      cursor: pointer; }
 
 @media screen and (max-width: 1350px) {
   .apply {
@@ -1050,7 +1051,8 @@ body {
     .send__button:hover {
       color: #2f80ed;
       border: 1px solid #2f80ed;
-      background-color: white; }
+      background-color: white;
+      cursor: pointer; }
 
 @media screen and (max-width: 1025px) {
   .send {
